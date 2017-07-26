@@ -1,3 +1,4 @@
+//https://www.hackerrank.com/contests/w34/challenges/maximum-gcd-and-sum
 /**  
 * MaxGcdSum --- Given two Arrays A and B, Find a pair (x, y) such that it has the highest gcd and highest sum among all such pairs (x, y)
 * @author Megha Rastogi
