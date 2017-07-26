@@ -16,18 +16,18 @@ public class MaxGcdSum {
     static int limit = 1000000+6;
 
     //Array to store count of occurences of an element in A
-	static int[] countA = new int[limit];
+    static int[] countA = new int[limit];
 
-	//Array to store count of occurences of an element in B
-	static int[] countB = new int[limit];
+    //Array to store count of occurences of an element in B
+    static int[] countB = new int[limit];
 
-	//Array to store count of multiples of elements in A
-	static int[] multiplesA = new int[limit];
+    //Array to store count of multiples of elements in A
+    static int[] multiplesA = new int[limit];
 
-	//Array to store count of multiples of elements in B
-	static int[] multiplesB = new int[limit];
+    //Array to store count of multiples of elements in B
+    static int[] multiplesB = new int[limit];
 
-	/**
+    /**
     * Update count of elements of A and B in countA and countB arrays respectively
     * @param arrayA 
     * @param arrayB
@@ -44,7 +44,7 @@ public class MaxGcdSum {
 			++countB[arrayB[i]];
 	}
 
-	/**
+    /**
     * Update multiples of A and B in multiplesA and multiplesB arrays respectively
     * @return No return Value
     */
@@ -65,7 +65,7 @@ public class MaxGcdSum {
 		}
 	}
 
-	/**
+    /**
     * Find the pair (x, y) with highest gcd and highest sum.
     * @param arrayA 
     * @param arrayB
